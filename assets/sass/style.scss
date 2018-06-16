@@ -1,0 +1,34 @@
+/*
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Author: @jonathanpath
+ * Date: 4 August 2015
+ *
+ * https://github.com/jonathanpath/SASS-SMACSS
+ * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ */
+
+/* Site settings */
+@import "site-settings";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+    font-family: Droid Sans;
+    src: url(../fonts/DroidSans.ttf);
+}
+/* Base */
+@import "base";
+
+/* Layouts */
+@import "layout/constrained";
+@import "layout/header";
+@import "layout/featured";
+@import "layout/food-boxes";
+@import "layout/footer";
+
+/* Modules */
+@import "modules/food-box";

@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Site que exibe produtos relacionados à poções.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoJP/ecommerce.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "poções",
+    "listagem",
+    "produtos",
+    "site",
+    "responsivo"
+  ],
+  "author": "Fernando José de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoJP/ecommerce/issues"
+  },
+  "homepage": "https://github.com/FernandoJP/ecommerce#readme",
+    "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^3.9.4"
+  }
+}

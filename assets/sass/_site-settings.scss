@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$fontPrimary: "Droid Sans";
+$fontSecondary: "Oswald";
+
+// = Colors
+$primary: rgb(82,52,104);
+$secondary: rgb(215,58,30);
+
+$fontColorPrimary:rgb(34,34,34);
+$fontColorSecondary:rgb(215,58,30);
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxtoem(1140, 16);
+
+%vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+%horizontal-center{
+    margin: 0 auto;
+}
