@@ -15,7 +15,7 @@
 @import "site-settings";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
 @font-face {
     font-family: Droid Sans;
     src: url(../fonts/DroidSans.ttf);
@@ -24,11 +24,13 @@
 @import "base";
 
 /* Layouts */
-@import "layout/constrained";
 @import "layout/header";
-@import "layout/featured";
-@import "layout/food-boxes";
+@import "layout/potions";
 @import "layout/footer";
 
 /* Modules */
-@import "modules/food-box";
+@import "modules/navbar";
+@import "modules/potion";
+@import "modules/search";
+@import "modules/shipping-information";
+@import "modules/shopping-cart";

@@ -15,12 +15,7 @@ $secondary: rgb(215,58,30);
 $fontColorPrimary:rgb(34,34,34);
 $fontColorSecondary:rgb(215,58,30);
 
-
-// = Grid
-// -----------------------------
-
-// Max width wrapper
-$wrapper-width: pxtoem(1140, 16);
+$margin:65px; /* margem do conteúdo sobre o lado direito e esquerdo */
 
 %vertical-center{
     display: flex;

@@ -5,40 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Restaurant</title>
+    <title>Merlin's Potions</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
 
     <script src="js/scripts.js"></script>
 </head>
 
 <body>
-    <header class="l-header flex-container">
-        <div class="logo">
-            <img src="images/logo-transparent.png" alt="Restaurant logo">
+    <header class="l-header flex-container vertical-center">
+        <div class="mobile-menu-btn" onclick="toggleNav()">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hidden"></i>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Potions</a>
-                </li>
-                <li>
-                    <a href="#">Ingredients</a>
-                </li>
-                <li>
-                    <a href="#">Books</a>
-                </li>
-                <li>
-                    <a href="#">Supplies</a>
-                </li>
-                <li>
-                    <a href="#">Charms</a>
-                </li>
-                <li>
-                    <a href="#">Clearance!</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Merlin's Potions Logo">
+        </div>
+        <div class="search">
+            <label>
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search our stock" />
+            </label>
+        </div>
+        <div class="shipping-information">
+            <h3>Free shipping</h3>
+            <p>on orders over $50</p>
+        </div>
+        <div class="shopping-cart flex-container vertical-center">
+            <img src="images/bag.jpg" alt="Bag">
+            <h3>BAG: <span>1</span></h3>
+        </div>
     </header>
+    <nav>
+        <ul class="flex-container">
+            <li>
+                <a href="#">Potions &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Ingredients &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Books &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Supplies &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Charms &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <li>
+                <a href="#">Clearance! &nbsp;<i class="fas fa-caret-down"></i></a>
+            </li>
+            <div class="sign flex-container flex-end vertical-center">
+                <p><a href="#">Sign In </a>&nbsp; or &nbsp;<a href="#"> Sign Up</a></p>
+            </div>  
+        </ul>
+    </nav>
     <div class="l-potions">
 
     </div>

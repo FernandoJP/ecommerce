@@ -1,0 +1,24 @@
+.search{
+    font-family: $secondary;
+    input{
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        border-radius: 6px;
+        padding-left: 35px;
+    }
+    label{
+         position: relative;
+    }
+    label i{
+        color: #666;
+        top: 2px;
+        left: 10px;
+        position: absolute;
+    }
+
+    @media (max-width: 50em) {
+        display:none;
+    }
+}

@@ -6,7 +6,7 @@ Então você chegou até aqui. Agora vamos avaliar o seu conhecimento técnico q
 
 Sua missão é criar a página abaixo:
 
-![Merlins Potions Layout](assets/potions-layout.png)
+![Merlins Potions Layout](assets/prototypes/potions-layout.png)
 
 ### Requisitos
 

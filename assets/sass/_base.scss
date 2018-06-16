@@ -7,9 +7,27 @@ body {
     padding:0;
 }
 
-a {
+a{
+    text-decoration: none;
 }
 
 .flex-container{
     display:flex;
+    justify-content: space-between;
+}
+
+.flex-container.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-container.vertical-center{
+    align-items: center;
+}
+
+.visible{
+    max-height:700px !important;
+}
+
+.hidden{
+    display:none !important;
 }

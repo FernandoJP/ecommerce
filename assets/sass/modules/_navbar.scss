@@ -1,0 +1,52 @@
+nav{
+    background-color: $primary;
+    font-family: $fontSecondary;
+    font-style:italic;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $primary;
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:0.25s;
+}
+
+li a:hover {
+    background-color:darken($primary, 8%);
+}
+
+.sign{
+    color:rgba(255,255,255,.5);
+}
+
+.sign a{
+    color: white;
+}
+
+    @media (max-width: 50em) { 
+        ul{
+            flex-direction: column;
+            margin:0;   
+            max-height:0;
+            transition:0.5s;         
+        }
+
+        .sign{
+            justify-content: center !important;
+        }
+    }
+}

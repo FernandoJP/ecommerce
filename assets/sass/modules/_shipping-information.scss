@@ -1,0 +1,16 @@
+.shipping-information{
+    font-style:italic;
+    font-family:$fontSecondary;
+    h3{
+        color:$secondary;
+        margin-bottom: -10px;
+    }
+
+    p{
+        color:$secondary;
+    }
+
+    @media (max-width: 50em) {
+        display:none;
+    }
+}

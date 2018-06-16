@@ -1,0 +1,10 @@
+.shopping-cart{
+    h3{
+    font-family:$fontPrimary;
+    color:lighten($primary, 35%);
+    padding:10px;
+    }
+    span{
+        color:$secondary;
+    }
+}
