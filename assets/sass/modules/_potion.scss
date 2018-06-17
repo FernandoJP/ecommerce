@@ -13,4 +13,8 @@
     .potion-details{
         text-align: center;
     }
+
+    @media (max-width: $mobileScreen) { 
+         width: 45%;
+    }
 }

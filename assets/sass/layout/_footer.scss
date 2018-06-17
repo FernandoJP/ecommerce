@@ -3,5 +3,14 @@
    ======================= */
 
 .l-footer {
-    background:yellow;
+    background:#ccc;
+    padding:$margin 25px;
+
+    > div{
+        flex-wrap: wrap;
+    }
+
+    .flex-container{
+         align-items: flex-start;
+    }
 }

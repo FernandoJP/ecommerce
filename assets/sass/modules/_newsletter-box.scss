@@ -1,0 +1,38 @@
+.newsletter-box{
+    align-items: flex-start;
+    margin-right:52px;
+    background:white;
+    font-family: $fontSecondary;
+    padding: 8px 30px 18px 30px;
+
+    h3{
+        font-style: italic;
+    }
+    
+    input{
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        border-radius: 6px;
+        padding-left: 35px;
+    }
+
+    button{
+        cursor:pointer;
+        padding: 12px 20px;
+        background-color:$secondary;
+        color:#fff;
+        transition:$transitionTime;
+    }
+
+    button:hover{
+        background:lighten($secondary, 20%);
+    }
+
+    @media (max-width: 70em) { 
+        margin-right: 0;
+        order:1;
+        width:100%;
+    }
+}

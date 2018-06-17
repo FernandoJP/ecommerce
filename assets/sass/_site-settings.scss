@@ -16,13 +16,5 @@ $fontColorPrimary:rgb(34,34,34);
 $fontColorSecondary:rgb(215,58,30);
 
 $margin:65px; /* margem do conteúdo sobre o lado direito e esquerdo */
-
-%vertical-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-%horizontal-center{
-    margin: 0 auto;
-}
+$transitionTime: 0.25s;
+$mobileScreen: 50em;

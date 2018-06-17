@@ -18,7 +18,7 @@
         position: absolute;
     }
 
-    @media (max-width: 50em) {
+    @media (max-width: $mobileScreen) {
         display:none;
     }
 }
