@@ -1,0 +1,16 @@
+.potion{
+    margin:40px 0;
+     width: 27%;
+    .potion-name{
+        font-family: $fontPrimary;
+        font-weight: bold
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .potion-details{
+        text-align: center;
+    }
+}

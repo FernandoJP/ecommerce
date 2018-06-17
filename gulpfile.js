@@ -8,23 +8,23 @@ const cleanCSS = require('gulp-clean-css');
 
 gulp.task('copyHtml', function () {
     gulp.src('assets/*.html')
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('public'))
 });
 
 gulp.task('imageMin',  function () {
-    gulp.src('assets/images/*')
+    gulp.src('assets/products/*')
         .pipe(imageMin([],{}))
-        .pipe(gulp.dest('dist/images'))
+        .pipe(gulp.dest('public/products'))
 });
 
 gulp.task('copyFonts', function () {
     gulp.src(['assets/fonts/*.otf','assets/fonts/*.ttf','assets/fonts/*.woff'])
-        .pipe(gulp.dest('dist/fonts'))
+        .pipe(gulp.dest('public/fonts'))
 });
 
 gulp.task('copyData', function () {
     gulp.src('assets/data/*.json')
-        .pipe(gulp.dest('dist/data'))
+        .pipe(gulp.dest('public/data'))
 });
 
 gulp.task('sass', function () {
@@ -32,14 +32,14 @@ gulp.task('sass', function () {
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('styles.css'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('public/css'))
 });
 
 gulp.task('scripts',  function () {
     gulp.src('assets/js/*.js')
         .pipe(concat('scripts.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('dist/js'))
+        .pipe(gulp.dest('public/js'))
 });
 
 gulp.task('watch', function(){
