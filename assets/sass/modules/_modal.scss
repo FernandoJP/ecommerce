@@ -1,0 +1,64 @@
+.modal-wrapper{
+    display:none;
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+
+    > div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.modal{
+    font-family: $fontPrimary;
+    position:fixed;
+    width:95vh;
+    height:70vh;
+    background-color:#fff;
+    padding: 20px;
+
+  .potion-details{
+    height: 100%;
+    .potion-details-img{
+        height: 30vh;
+        align-self: center;
+    }
+
+    .potion-details-text{
+        align-self: center;
+    }
+}
+
+    button{
+        cursor:pointer;
+        padding: 12px 20px;
+        background-color:$secondary;
+        color:#fff;
+        transition:$transitionTime;
+    }
+
+    button:hover{
+        background:lighten($secondary, 20%);
+    }
+
+    @media (max-width: $mobileScreen) { 
+        h2{
+            font-size: 16px;
+        }
+        h3{
+            font-size:15px;
+        }
+        p{
+            font-size: 13px;
+        }
+        height: 90vh;
+        .potion-details{
+            flex-direction: column;
+        }
+    }
+}

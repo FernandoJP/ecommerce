@@ -1,6 +1,9 @@
 /* ===========================
    Base
    =========================== */
+html{
+    position:relative;
+}
 
 body {
     margin:0;
@@ -25,7 +28,7 @@ a{
 }
 
 .visible{
-    max-height:700px !important;
+    display:block !important;
 }
 
 .hidden{
